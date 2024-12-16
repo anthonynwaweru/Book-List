@@ -1,9 +1,69 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Page-1" id="jU0s9pMRdMiga9_Q1oSD">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="wLSb2DnawrsLDMvsL-GS-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="179" y="190" width="470" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="wLSb2DnawrsLDMvsL-GS-2" value="Base de données des documents" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wLSb2DnawrsLDMvsL-GS-3" value="Gestion des usages" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wLSb2DnawrsLDMvsL-GS-4" value="Emprunts et retours" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wLSb2DnawrsLDMvsL-GS-5" value="Gestion des documents: livraisons, achats" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wLSb2DnawrsLDMvsL-GS-6" value="Usage: Recherche, consultations, Proposition d&#39;achat" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="310" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wLSb2DnawrsLDMvsL-GS-7" value="Employés: Validation,, gestion" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="440" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wLSb2DnawrsLDMvsL-GS-8" value="Fournisseurs" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="310" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wLSb2DnawrsLDMvsL-GS-9" value="Bibliothécaire" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="440" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wLSb2DnawrsLDMvsL-GS-11" value="Paiements: Compatibilité de paiements" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="720" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wLSb2DnawrsLDMvsL-GS-12" value="" style="endArrow=none;html=1;rounded=0;entryX=0.002;entryY=0.298;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="wLSb2DnawrsLDMvsL-GS-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="360" as="sourcePoint" />
+            <mxPoint x="160" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLSb2DnawrsLDMvsL-GS-14" value="" style="endArrow=none;html=1;rounded=0;entryX=-0.002;entryY=0.674;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="wLSb2DnawrsLDMvsL-GS-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="129" y="480" as="sourcePoint" />
+            <mxPoint x="179" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLSb2DnawrsLDMvsL-GS-15" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.606;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="wLSb2DnawrsLDMvsL-GS-1" target="wLSb2DnawrsLDMvsL-GS-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="550" as="sourcePoint" />
+            <mxPoint x="710" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLSb2DnawrsLDMvsL-GS-16" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="wLSb2DnawrsLDMvsL-GS-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="360" as="sourcePoint" />
+            <mxPoint x="700" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLSb2DnawrsLDMvsL-GS-17" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="wLSb2DnawrsLDMvsL-GS-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="364" y="710" as="sourcePoint" />
+            <mxPoint x="414" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
